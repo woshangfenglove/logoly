@@ -1,6 +1,6 @@
 <style lang="stylus" scoped>
 li 
-    color #fff
+    color #1d1d1d
 </style>
 
 <template>
@@ -12,7 +12,7 @@ li
                     <p>Q: How to use this generator?</p>
                     <p>A: The generator is very simple to use. You can get a logo in just 4 steps:</p>
                         <ul>
-                            <li>Choose a style (e.g. Horizontal/Vertical, Pornhub/Youtube/...).</li>
+                            <li>Choose a style</li>
                             <li>Edit the text in the center box.</li>
                             <li>Customize your logo (color, background, font size, etc.).</li>
                             <li>Finally, click the "Export" button and get the logo of your own.</li>

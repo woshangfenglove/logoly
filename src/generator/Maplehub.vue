@@ -1,5 +1,5 @@
 <style lang="stylus" scoped>
-.pornhub {
+.maplehub {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -72,7 +72,7 @@
 </style>
 
 <template>
-  <div class="pornhub">
+  <div class="maplehub">
     <div
       class="box"
       v-tooltip="{
@@ -195,7 +195,7 @@ import domtoimage from 'dom-to-image'
 import FontSelector from '../components/FontSelector'
 
 export default {
-  name: 'pornhub',
+  name: 'maplehub',
   data() {
     return {
       prefixColor: '#ffffff',
@@ -211,7 +211,7 @@ export default {
   },
   components: { FontSelector },
   mounted: function() {
-    //   this.$tours['pornhub'].start()
+    //   this.$tours['maplehub'].start()
   },
   methods: {
     updatePrefix(e) {
@@ -250,8 +250,8 @@ export default {
     },
     twitter() {
       this.$ga.event('social', 'action', 'twitter', 1)
-      let url = 'https://logoly.pro'
-      let text = encodeURIComponent(`Built with #LogolyPro, by @xiqingongzi ${url}`)
+      let url = 'https://logosexamples.com'
+      let text = encodeURIComponent(`Built with #LogosExamples, by ${url}`)
       window.open(`https://twitter.com/intent/tweet?text=${text}`)
     },
   },

@@ -5,8 +5,8 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    prefix:'edit',
-    suffix:'me'
+    prefix:'Edit',
+    suffix:'Me'
   },
   mutations: {
       updatePrefix(state,text){

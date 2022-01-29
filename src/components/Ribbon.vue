@@ -3,6 +3,7 @@ a
     position fixed
     top 0
     right 0
+    display: none
 </style>
 
 <template>

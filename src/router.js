@@ -8,13 +8,13 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'pornhub',
-      component: () => import(/* webpackChunkName: "pornhub" */ './generator/Pornhub.vue'),
+      name: 'maplehub',
+      component: () => import(/* webpackChunkName: "maplehub" */ './generator/Maplehub.vue'),
       meta: {
         analytics: {
           pageviewTemplate(route) {
             return {
-              title: 'Pornhub Generator',
+              title: 'Maplehub Generator',
               page: route.path,
             }
           },
@@ -23,14 +23,14 @@ export default new Router({
     },
     {
       path: '/vertical-ph',
-      name: 'vertical-pornhub',
+      name: 'vertical-maplehub',
       component: () =>
-        import(/* webpackChunkName: "vertical-pornhub" */ './generator/VerticalPornHub.vue'),
+        import(/* webpackChunkName: "vertical-maplehub" */ './generator/VerticalMapleHub.vue'),
       meta: {
         analytics: {
           pageviewTemplate(route) {
             return {
-              title: 'VerticalPornHub Generator',
+              title: 'VerticalMapleHub Generator',
               page: route.path,
             }
           },
